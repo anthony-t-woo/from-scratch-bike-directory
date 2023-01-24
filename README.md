@@ -1,4 +1,6 @@
 !['wireframe for bike directory app'](/assets/wireframe.jpeg)
+!['bike info table'](/assets/main-table-screenshot.png)
+!['aux wheel size table'](/assets/aux-table-screenshot.png)
 
 # HTML Setup
 
