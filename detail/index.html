@@ -8,30 +8,29 @@
 
         <!-- title and favicon -->
         <title>Web App</title>
-        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <link rel="icon" type="image/x-icon" href="../assets/alchemy-favicon.png" />
 
         <!-- js -->
         <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-        <script type="module" src="app.js"></script>
+        <script type="module" src="../detail/detail.js"></script>
 
         <!-- fonts -->
         <!-- see https://fonts.google.com/ -->
 
         <!-- css -->
-        <link rel="stylesheet" href="styles/reset.css" />
-        <link rel="stylesheet" href="styles/global.css" />
+        <link rel="stylesheet" href="../styles/reset.css" />
+        <link rel="stylesheet" href="../styles/global.css" />
         <!-- add link for page specific css -->
     </head>
 
     <body>
         <header>
-            <a href="./">Home</a>
-            <h1>Anthony's Bike Directory</h1>
+            <a href="../">Home</a>
         </header>
 
         <main>
             <section class="main-section">
-                <div id="bike-list-container"></div>
+                <div id="bike-detail-container"></div>
             </section>
         </main>
     </body>

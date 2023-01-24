@@ -31,5 +31,104 @@ header .logo {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: calc(var(--footer-height));
+    background-image: url('/assets/background.jpg');
+}
+
+section {
+    background-color: rgb(132, 132, 240);
+    height: 100%;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+    border: solid 2px var(--color1);
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+#bike-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 25px;
+    width: 80%;
+    background-color: rgb(84, 84, 147);
+}
+
+.bike-card {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 1px black;
+    width: 200px;
+    height: 300px;
+    background-color: lightslategray;
+}
+.bike-card p {
+    text-align: center;
+}
+
+.bike-card:hover {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(91, 86, 77);
+    cursor: pointer;
+    transform: scale(1.1);
+    rotate: 5deg;
+}
+
+.bike-card img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.bike-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}
+
+.bike-detail .make-and-model {
+    display: flex;
+    font-size: 1.75rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bike-detail .use-and-color {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.bike-detail img {
+    width: 90%;
+    margin: 20px;
 }
