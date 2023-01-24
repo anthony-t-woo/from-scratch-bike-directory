@@ -31,7 +31,29 @@ header .logo {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: calc(var(--footer-height));
+}
+
+section {
+    background-color: white;
+    height: 100%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+    border: solid 2px var(--color1);
+}
+
+a {
+    text-decoration: none;
+    color: purple;
 }
 
 #bike-list-container {
@@ -55,6 +77,9 @@ main {
     width: 200px;
     height: 300px;
 }
+.bike-card p {
+    text-align: center;
+}
 
 .bike-card:hover {
     font-size: 1.5rem;
@@ -68,7 +93,7 @@ main {
     border: solid 1px black;
     width: 200px;
     height: 300px;
-    background-color: blanchedalmond;
+    background-color: rgb(91, 86, 77);
     cursor: pointer;
     transform: scale(1.1);
     rotate: 5deg;
