@@ -64,7 +64,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     border: solid 1px black;
     width: 200px;
     height: 300px;
@@ -76,5 +76,30 @@ main {
 
 .bike-card img {
     width: 90%;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.bike-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}
+
+.bike-detail .make-and-model {
+    display: flex;
+    font-size: 1.75rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bike-detail .use-and-color {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.bike-detail img {
+    width: 90%;
+    margin: 20px;
 }
