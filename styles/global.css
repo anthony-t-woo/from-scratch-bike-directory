@@ -33,3 +33,48 @@ header .logo {
 main {
     padding: 20px;
 }
+
+#bike-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.bike-card {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 1px black;
+    width: 200px;
+    height: 300px;
+}
+
+.bike-card:hover {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 1px black;
+    width: 200px;
+    height: 300px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    transform: scale(1.1);
+    rotate: 5deg;
+}
+
+.bike-card img {
+    width: 90%;
+    border-radius: 20px;
+}
