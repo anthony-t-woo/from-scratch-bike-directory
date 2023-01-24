@@ -5,6 +5,7 @@ export function renderBike(bike) {
     const makeAndModelEL = document.createElement('p');
 
     a.classList.add('bike-card');
+    a.href = `./detail/?id=${bike.id}`;
     imgEL.src = `./assets/images/${bike.model}.jpeg`;
     makeAndModelEL.textContent = `${bike.make} ${bike.model}`;
 

@@ -8,3 +8,11 @@ export async function getBikes() {
     let { data, error } = await client.from('bike_collection').select('*, wheel_size (name)');
     return data;
 }
+
+export async function getBike(id) {
+    let { data, error } = await client
+        .from('bike_collection')
+        .select('*, wheel_size (name)')
+        .eq('id', id);
+    return data;
+}
